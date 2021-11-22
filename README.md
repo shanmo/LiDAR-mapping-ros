@@ -17,6 +17,11 @@ map.pcd
 - ROS melodic 
 - python 2.7 
 
+# results 
+
+- [reconstructed point clouds](https://github.com/shanmo/LiDAR-mapping-ros/issues/1)
+- [project description](https://github.com/shanmo/LiDAR-mapping-ros/blob/main/doc/LiDAR-based_Mapping.pdf)
+
 # reference 
 
 - http://www.open3d.org/docs/0.10.0/tutorial/Advanced/multiway_registration.html

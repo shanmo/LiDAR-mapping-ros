@@ -1,8 +1,9 @@
 # Ignore everything
-*
+/*/
 
 # But not these files...
 !.gitignore
 !readme.md
-!src/*
+!src/cartographer/*
+!src/cartographer_ros/*
 # etc...

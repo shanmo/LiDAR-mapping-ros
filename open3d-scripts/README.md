@@ -20,7 +20,7 @@ map.pcd
 # results 
 
 - [reconstructed point clouds](https://github.com/shanmo/LiDAR-mapping-ros/issues/1)
-- [project description](https://github.com/shanmo/LiDAR-mapping-ros/blob/main/doc/LiDAR-based_Mapping.pdf)
+- [project description](https://github.com/shanmo/LiDAR-mapping-ros/tree/main/open3d-scripts/doc)
 
 # reference 
 

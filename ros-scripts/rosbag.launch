@@ -1,0 +1,9 @@
+<launch>
+
+  <arg name="rosbag_path" default="/home/erl/lidar-mapping/lidar_data.bag" />
+  <node pkg="rviz" type="rviz" name="rviz" args="-d /home/erl/lidar-mapping/LiDAR-mapping-ros/ros-scripts/rviz_lidar.rviz"/>
+  <node pkg="tf" type="static_transform_publisher" name="tf1" args="0.0 0.0 0.0 0.0 0.0 0.0 1.0 body global 1000"/>
+  <node pkg="tf" type="static_transform_publisher" name="tf2" args="0.0 0.0 0.0 0.0 0.0 0.0 1.0 body velodyne 1000"/>
+  <node pkg="rosbag" type="play" name="rosbag" args="--clock $(arg rosbag_path)" required="true"/>
+  
+</launch>

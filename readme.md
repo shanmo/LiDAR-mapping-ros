@@ -71,7 +71,8 @@ rosservice call /write_state "{filename: '${HOME}/Downloads/demo.pbstream', incl
 
 ## results 
 
-- the point cloud map in rviz is in https://github.com/shanmo/LiDAR-mapping-ros/issues/3
+- saved pcd map is [here](https://github.com/shanmo/LiDAR-mapping-ros/tree/main/data)
+- visualization of point cloud map is [here](https://github.com/shanmo/LiDAR-mapping-ros/issues/3)
 - [video demo](https://youtu.be/B6nrmXvqAuo)
 
 ## reference 

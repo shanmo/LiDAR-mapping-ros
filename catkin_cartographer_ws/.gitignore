@@ -4,6 +4,5 @@
 # But not these files...
 !.gitignore
 !readme.md
-!src/cartographer/*
-!src/cartographer_ros/*
+!src/**/*
 # etc...

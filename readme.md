@@ -74,6 +74,7 @@ rosservice call /write_state "{filename: '${HOME}/Downloads/demo.pbstream', incl
 - saved pcd map is [here](https://github.com/shanmo/LiDAR-mapping-ros/tree/main/data)
 - visualization of point cloud map is [here](https://github.com/shanmo/LiDAR-mapping-ros/issues/3)
 - [video demo](https://youtu.be/B6nrmXvqAuo)
+![demo](assets/demo.gif)
 - [documentation](https://github.com/shanmo/LiDAR-mapping-ros/tree/main/doc)
 
 ## reference 
